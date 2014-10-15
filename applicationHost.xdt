@@ -4,8 +4,8 @@
     <rewrite xdt:Transform="InsertIfMissing">
       <rules xdt:Transform="InsertIfMissing">
         <rule name="Block SSL3.0" xdt:Locator="Match(name)" xdt:Transform="RemoveAll"/>
-        <rule name="Block SSL3.0" xdt:Locator="Match(name)" stopProcessing="true" xdt:Transform="InsertIfMissing">
-          <match url=".*" />
+        <rule name="Block SSL3.0" xdt:Locator="Match(name)" patternSyntax="Wildcard" stopProcessing="true" xdt:Transform="InsertIfMissing">
+          <match url="*" />
           <conditions>
               <add input="{HTTP_FORWARDED_SSL3.0}" pattern="1" />
           </conditions>
