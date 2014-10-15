@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>DisableSSL3</id>
+    <id>DisableSSLv3</id>
     <title>Disable SSL3</title>
     <version>1.0.0</version>
     <authors>David Ebbo</authors>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <projectUrl>https://github.com/davidebbo/DisableSSL3SiteExtension</projectUrl>
+    <projectUrl>https://github.com/davidebbo/DisableSSLv3SiteExtension</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Site Extension that disables SSL3 on the site</description>
     <tags>SSL3 POODLE</tags>
